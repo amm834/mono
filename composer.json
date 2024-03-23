@@ -1,4 +1,5 @@
 {
+    "name":"amm834/mono",
     "require-dev": {
         "schranz/mono": "^2.2"
     }
