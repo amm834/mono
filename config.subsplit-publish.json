@@ -1,3 +1,9 @@
 {
-    "sub-splits": []
+    "sub-splits": [
+        {
+            "name": "SEAL",
+            "directory": "packages/hola",
+            "target": "git@github.com:amm834/hola.git"
+        }
+    ]
 }

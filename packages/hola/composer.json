@@ -1,0 +1,22 @@
+{
+    "name": "amm834/hola",
+    "description": "description",
+    "minimum-stability": "stable",
+    "license": "proprietary",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "aungmyatmoe",
+            "email": "email@example.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/database": "4.2.*"
+    },
+    "config": {
+        "allow-plugins": {
+            "kylekatarnls/update-helper": true
+        }
+    }
+}

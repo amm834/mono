@@ -1,6 +1,11 @@
 {
-    "name":"amm834/mono",
-    "require-dev": {
-        "schranz/mono": "^2.2"
-    }
+  "type": "library",
+  "require-dev": {
+    "schranz/mono": "^2.2"
+  },
+  "scripts": {
+    "post-install-cmd": "@php vendor/bin/mono run composer install",
+    "post-update-cmd": "@php vendor/bin/mono run composer update",
+    "fix": "@php vendor/bin/mono run composer fix"
+  }
 }
